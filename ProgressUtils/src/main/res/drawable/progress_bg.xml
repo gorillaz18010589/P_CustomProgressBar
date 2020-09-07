@@ -1,0 +1,28 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@android:id/background">
+        <shape>
+            <corners
+                android:topLeftRadius="15dp"
+                android:topRightRadius="15dp"
+                android:bottomLeftRadius="15dp"
+                android:bottomRightRadius="15dp"
+                />
+            <solid android:color="#bfbfbf" />
+        </shape>
+    </item>
+    <!--這個是一個自定義的png檔案，上面條紋的一小節-->
+    <item
+        android:id="@android:id/progress"
+        android:drawable="@drawable/bg1"
+    >
+    <shape>
+        <corners
+            android:topLeftRadius="15dp"
+            android:topRightRadius="15dp"
+            android:bottomLeftRadius="15dp"
+            android:bottomRightRadius="15dp"
+            />
+    </shape>
+</item>
+    </layer-list>

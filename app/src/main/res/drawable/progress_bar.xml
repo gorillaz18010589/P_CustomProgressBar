@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="50dip" />
+            <solid android:color="#fff000"/>
+            <padding android:bottom="1dip" android:left="3dip" android:right="3dip" android:top="1dip" />
+        </shape>
+    </item>
+
+    <item android:id="@android:id/progress">
+        <bitmap android:src="@drawable/bg1" android:tileMode="repeat"/>
+    </item>
+</layer-list>

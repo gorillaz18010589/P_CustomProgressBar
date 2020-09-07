@@ -1,0 +1,3 @@
+include ':ProgressUtils'
+include ':app'
+rootProject.name = "P_CustomProgressBar"
